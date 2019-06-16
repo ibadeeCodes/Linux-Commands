@@ -1,0 +1,162 @@
+====Some Important Linux Commands====
+
+1) cd.. = one directory back.
+
+2) cd/ = goes to root directory.
+
+3) cd "directory name" = goes inside the selected directory.
+
+4) ls = shows the list of directories and files in the current directory.
+
+5) mkdir "directory name"  = creates a new directory.
+
+6) touch "file name" = creates a new file.
+
+-Note: Linux terminal supports an editor which is called "Vi editor" through which we
+      can edit our files through command line interface aka (CLI).
+
+7) Vi "file name" = Opens the selected file in Vi editor.
+
+-Note: There are different modes to access in editor.
+
+8) i = It is used to access the insert mode of the editor.
+
+9) Escape (esc) button = To get out of the insert mode and enter into the command mode.
+
+10) Press Shift + colon(:) = To save the content in the file.
+
+11) wq = To save and quit.
+
+12) cat "file name" = To view the content of the file.
+
+13) cp "file name" "type your path at which place you want to paste the selected
+    file or directory" = copy and paste.
+
+14) mv "file name" "type your path at which place you want to paste the selected
+    file or directory" = cut and paste. 
+
+15) rm "file name" = deletes/removes the file.
+
+16) man "commnad name" = shows the detail and working of the selected command.
+
+    example: man ls (it will tell that the purpose of ls command is to show the list of 
+	     all files and directories in the selected directory.
+
+17) find "path" -name "file name" = The find command will tell that whether the file 
+    is available inside the selected path or not.
+    If the file is found then the terminal will return the path else nothing.
+
+18) uname = Displays the name of the operating system (O.S) the user is currently using.
+
+19) uname -a = Tells information about machine, processors architecture & operating    	
+    system details.
+
+20) lscpu = Tells CPU speed & numbers.
+
+21) df h = Tells us about the disk space and "h" tells us in human readable form.
+
+22) du "directory path" = displays how much space is aquired by the directories and
+    files in that particular directory whose path is mentioned after a space.
+
+23) du "directory path" s = Returns the total size of that directory.
+ 
+24) date = Returns the current date.
+
+25) cal = Returns calender.
+
+26) w = Tells which user is currently online.
+ 
+==Some Advance Commands==
+
+27) apt-get install package name = Installs particular package or dependency.
+
+28) apt-cache search keyword = Searches the package which is already installed.
+
+29) info = Tells the info about commands. Similar to man command but it is more detailed.
+
+30) type "any command" = Shows the location of command file.
+    
+    example: type mkdir
+    man is hashed (/usr/bin/man)
+
+31) bg = Tells which process is running in the background.
+
+32) free = Shows the free, shared and used space.
+
+33) ps = Tells the running processes and their ID's.
+
+34) kill "process id" = Stops/kills the process of that particular id.
+
+35) nice = Displays low priority program.
+
+36) top = Tells the CPU & Memory Utilization of running processes.
+
+37) su - = Takes to the administrator or super user level.
+
+Note: su - will ask password.
+
+38) shutdown = The system will pe powered off. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
